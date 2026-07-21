@@ -37,3 +37,4 @@ The quote form and modal use **mailto** (`waltsolarenergies17@gmail.com`) and **
 
 ## Deploy
 Drag the folder into Netlify, or connect the repo to Vercel/GitHub Pages. It is fully static.
+# WaltSolarEnergies
