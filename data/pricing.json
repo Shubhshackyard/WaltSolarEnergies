@@ -1,0 +1,41 @@
+{
+  "currency": "INR",
+  "currencySymbol": "₹",
+  "competitor": "TATA",
+  "brands": ["Waree", "Adani", "Alpex"],
+  "systems": [
+    {
+      "id": "hybrid",
+      "name": "Hybrid Solar System",
+      "tagline": "Battery backup + grid , power even during outages.",
+      "brands": ["Waree", "Adani", "Alpex"],
+      "tiers": [
+        { "capacity": "2 kW", "capacityKw": 2, "price": 175000 },
+        { "capacity": "3 kW", "capacityKw": 3, "price": 220000 },
+        { "capacity": "4 kW", "capacityKw": 4, "price": 275000 }
+      ]
+    },
+    {
+      "id": "ongrid",
+      "name": "On-Grid Solar System",
+      "tagline": "Grid-tied with net metering , the lowest-cost way to go solar.",
+      "brands": ["Waree", "Adani", "Alpex"],
+      "tiers": [
+        { "capacity": "2 kW", "capacityKw": 2, "price": 140000, "tata": 165000 },
+        { "capacity": "3 kW", "capacityKw": 3, "price": 170000, "tata": 190000 },
+        { "capacity": "4 kW", "capacityKw": 4, "price": 215000, "tata": 225000 },
+        { "capacity": "5 kW", "capacityKw": 5, "price": 250000, "tata": 265000 }
+      ]
+    }
+  ],
+  "comparison": {
+    "competitor": "TATA",
+    "note": "Same top-tier panels. Lower price with Walt Solar Energies.",
+    "rows": [
+      { "capacity": "2 kW", "walt": 140000, "tata": 165000, "save": 25000 },
+      { "capacity": "3 kW", "walt": 170000, "tata": 190000, "save": 20000 },
+      { "capacity": "4 kW", "walt": 215000, "tata": 225000, "save": 10000 },
+      { "capacity": "5 kW", "walt": 250000, "tata": 265000, "save": 15000 }
+    ]
+  }
+}
