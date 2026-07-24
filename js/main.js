@@ -12,12 +12,12 @@
   var FALLBACK_PRICING = {
     currencySymbol: "₹",
     competitor: "TATA",
-    brands: ["Waree", "Adani", "Alpex"],
+    brands: ["Waaree", "Adani", "Alpex", "Luminous", "TATA", "UTL"],
     systems: [
       {
         id: "hybrid", name: "Hybrid Solar System",
         tagline: "Battery backup + grid , power even during outages.",
-        brands: ["Waree", "Adani", "Alpex"],
+        brands: ["Waaree", "Adani", "Alpex", "Luminous", "TATA", "UTL"],
         tiers: [
           { capacity: "2 kW", capacityKw: 2, price: 175000 },
           { capacity: "3 kW", capacityKw: 3, price: 220000 },
@@ -27,7 +27,7 @@
       {
         id: "ongrid", name: "On-Grid Solar System",
         tagline: "Grid-tied with net metering , the lowest-cost way to go solar.",
-        brands: ["Waree", "Adani", "Alpex"],
+        brands: ["Waaree", "Adani", "Alpex", "Luminous", "TATA", "UTL"],
         tiers: [
           { capacity: "2 kW", capacityKw: 2, price: 140000, tata: 165000 },
           { capacity: "3 kW", capacityKw: 3, price: 170000, tata: 190000 },
@@ -382,7 +382,7 @@
       );
     });
 
-    grid.innerHTML = cards.length ? cards.join("") : '<div class="catalog-empty">No results. Try “Waree”, “Adani” or “Alpex”.</div>';
+    grid.innerHTML = cards.length ? cards.join("") : '<div class="catalog-empty">No results. Try “Waaree”, “Luminous” or “UTL”.</div>';
     wireCatalogButtons(grid);
     refreshIcons();
   }

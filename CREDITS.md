@@ -1,14 +1,14 @@
 # Media Credits
 
 ## Brand assets (owned by Walt Solar Energies)
-- `assets/img/monologo.png` , company logo (horizontal)
-- `assets/img/monologo.png` , company logo (square, favicon/OG)
+- `assets/img/logo.png` , company logo (horizontal)
+- `assets/img/logo.png` , company logo (square, favicon/OG)
 - `assets/videos/carousel.mp4`, `assets/videos/hero.mp4`, `assets/videos/hero2.mp4` , provided by the client
 
 ## Extra stock videos (optional add-ons)
 The site currently ships with the 3 client-provided clips above, which cover the hero and carousel. The Mixkit clips below are curated, royalty-free (Mixkit Free License, no attribution required) picks to add more variety.
 
-> **Note:** Mixkit is Cloudflare-protected and blocks scripted downloads (PowerShell/curl get HTTP 403), so these could not be fetched automatically. Download them manually in a bromonologor (one click each), save into `assets/videos/` with the filename shown, and they will be picked up. Ask me to wire any new file into the carousel.
+> **Note:** Mixkit is Cloudflare-protected and blocks scripted downloads (PowerShell/curl get HTTP 403), so these could not be fetched automatically. Download them manually in a brologor (one click each), save into `assets/videos/` with the filename shown, and they will be picked up. Ask me to wire any new file into the carousel.
 
 | Save as | Caption | Download page |
 |---------|---------|---------------|

@@ -1,6 +1,6 @@
 # Walt Solar Energies , Static Website
 
-Modern, responsive marketing site for **Walt Solar Energies** (authorized vendor for Waree, Adani & Alpex). Built with plain HTML + Tailwind (CDN) + Swiper + GSAP + Lucide. No build step required.
+Modern, responsive marketing site for **Walt Solar Energies** (authorized vendor for Waaree, Adani & Alpex). Built with plain HTML + Tailwind (CDN) + Swiper + GSAP + Lucide. No build step required.
 
 ## Run locally
 Use the bundled dev server (adds HTTP Range streaming for videos and silences the benign client-disconnect tracebacks):
